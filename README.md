@@ -1,3 +1,5 @@
+Forked from @nestjs/ng-universal with support for Angular 17
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
@@ -152,6 +154,7 @@ In some situations, it may be required to customize the `webpack` build while us
 To add a customizable `webpack` config to your project, it is recommended to install [@angular-builders/custom-webpack](https://www.npmjs.com/package/@angular-builders/custom-webpack) in the project and to set your builders appropriately.
 
 ### Example Custom Webpack
+
 ```typescript
 // webpack.config.ts
 import { Configuration, IgnorePlugin } from 'webpack'
