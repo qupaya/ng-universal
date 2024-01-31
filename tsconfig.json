@@ -14,6 +14,6 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true
   },
-  "include": ["lib/**/*", "../index.ts"],
+  "include": ["lib/**/*", "../index.ts", "../tokens.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
