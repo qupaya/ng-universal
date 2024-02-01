@@ -1,6 +1,6 @@
 {
   "name": "@qupaya/nestjs-ng-universal",
-  "version": "8.0.1",
+  "version": "8.0.2",
   "description": "Forked from @nestjs/ng-universal with support for Angular 17",
   "author": "Kamil Mysliwiec",
   "license": "MIT",

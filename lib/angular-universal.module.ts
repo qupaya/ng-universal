@@ -26,8 +26,8 @@ export class AngularUniversalModule implements OnModuleInit {
 
   static forRoot(options: AngularUniversalOptions): DynamicModule {
     const indexHtml = existsSync(join(options.viewsPath, 'index.original.html'))
-      ? 'index.original.html'
-      : 'index';
+      ? join(options.viewsPath, 'index.original.html')
+      : join(options.viewsPath, 'index.html');
 
     options = {
       templatePath: indexHtml,
